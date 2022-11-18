@@ -1,4 +1,4 @@
-# Part II: Pub/Sub Services using MQTT
+# Pub/Sub Services using MQTT
 
 ## Running a Mosquitto MQTT message broker in Docker, 1 publisher and N subscribers
 
