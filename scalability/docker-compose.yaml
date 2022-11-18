@@ -1,0 +1,14 @@
+version: '3'
+services:
+ mqttbroker1:
+  image: toke/mosquitto:latest
+  container_name: mqtt-broker-1
+  ports:
+   - 1883:1883
+   - 9001:9001
+ mqttbroker2:
+  image: toke/mosquitto:latest
+  container_name: mqtt-broker-2
+  ports:
+   - 1884:1883
+   - 9002:9001
