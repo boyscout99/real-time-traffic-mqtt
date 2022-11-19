@@ -1,5 +1,7 @@
 # Pub/Sub Services using MQTT
 
+Authors: Sebastian Fuhr, Tommaso Praturlon
+
 ## Running a Mosquitto MQTT message broker in Docker, 1 publisher and N subscribers
 
 1. Pull the mosquitto image with `docker pull toke/mosquitto`
